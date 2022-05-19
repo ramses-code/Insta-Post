@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post{
+    width: 400px;
+    margin-top: 20px;
+    background-color: white;
+}
+.divHeader {
+    display: flex;
+    width: 400px;
+    align-items: center;
+}
+.firstp {
+    margin-bottom: 0;
+}
+.secondp {
+    margin-top: 0;
+}
+svg:first-child {
+    margin: 0px 5px;
+}
+.lastIcon {
+    margin-left: 280px;
+}
+
+img {
+    width: 400px;
+    height: 300px;
+}
+
+.fIcons {
+    margin: 3px 5px 0 5px;
+}
+svg + svg {
+    margin: 0 5px;
+}
+.footerP {
+    margin: 3px 8px;
+}
+
+
+
+
+
+
+svg:last-of-type{
+    float: right;
+}
